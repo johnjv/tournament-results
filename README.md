@@ -14,20 +14,20 @@ Project 2 implements a tournament results program. I used a PostgreSQL database 
 
 Please ensure you have Python, Vagrant and VirtualBox installed. This project uses a pre-congfigured Vagrant virtual machine which has the PostgreSQL server installed. 
 
-	'''bash
-	cd /vagrant/tournament
-	vagrant up
-	vagrant ssh
-	'''
+'''bash
+$ cd /vagrant/tournament
+$ vagrant up
+$ vagrant ssh
+'''
 
 When running the project for the first time, no database will exist. To create it run the command
 	
-	'''bash
-	psql -f tournament.sql
-	'''
+'''bash
+$ psql -f tournament.sql
+'''
 
 To test the python module and ensure all the functions are working as expected run 
 	
-	'''bash
-	python tournament_test.py
-	'''
+'''bash
+$ python tournament_test.py
+'''

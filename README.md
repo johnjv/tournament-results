@@ -6,7 +6,7 @@
 
 Project 2 implements a tournament results program. I used a PostgreSQL database to keep track of player and matches in a game tournament as well as a python module to interact with it. The three main files in this project are :
 
-- **tourname.sql** : SQL file that creates the database and defines it's schema
+- **tournament.sql** : SQL file that creates the database and defines it's schema
 - **tournament_test.py** : contains test functions to test against tournament.py
 - **tournament.py** : tournament module that interacts with the database and completes the Swiss Pairing
 
